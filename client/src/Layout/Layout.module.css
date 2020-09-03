@@ -1,0 +1,36 @@
+.Container {
+   color: #333333;
+   width:100vw;
+   height:100vh;
+   font-family: arial;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   color:white
+}
+
+.Header {
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    text-align: center;
+
+}
+
+Header h1 {
+    font-size: 3.5vw;
+    margin-bottom: 1vh;
+}
+
+
+@media (max-width:1400px) {
+    Header h1 {
+        font-size: 32px;
+        margin-bottom: 1vh;
+    }
+}
+
+

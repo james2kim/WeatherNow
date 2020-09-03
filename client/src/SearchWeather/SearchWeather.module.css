@@ -1,0 +1,100 @@
+.Form {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.SearchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: black;
+}
+
+.SearchTerm:focus {
+    color:black;
+    font-weight: bold;
+}
+
+.SearchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+.Modal {
+    width:37vw;
+    height:45vh;
+    background:white;
+    color:black;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:1px solid grey;
+    border-radius: 10px ;
+    font-weight: bold;
+}
+
+
+.Image {
+    width:5vw;
+    height:5vh;
+}
+
+.Temperature {
+    display: flex;
+    justify-content:center;
+   align-items: center;
+   font-size: 2.5vw;
+}
+
+.Text{
+    font-weight: bold;
+}
+
+
+
+@media (max-width:1500px) {
+    .Modal {
+        width:60vw;
+        height:50vh
+    }
+}
+
+
+@media (max-width:1000px) {
+    .Modal {
+        width:90vw;
+        height:55vh
+    }
+    .Text {
+        font-size: 14px;
+    }
+    .Temperature {
+        font-size: 22px;
+        width:40vw;
+        margin-left: 30%;
+        justify-content: space-evenly;
+    }
+
+    .Description {
+        width:90vw;
+    }
+
+    .Image {
+        width:8vw;
+        height:8vh
+    }
+
+}
