@@ -12,8 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon app.js",
-    "heroku-postbuild":"cd client && npm install && npm run build"
+    "start":"node app.js"
   },
   "author": "",
   "license": "ISC"

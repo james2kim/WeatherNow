@@ -1,25 +1,20 @@
 const path = require ('path')
 const express = require ('express')
 const cors = require('cors')
-
-const app = express()
-
 const getGeolocation = require ('./utils/getGeolocation')
 const getWeatherData = require('./utils/GetWeatherData')
 
-
+const app = express()
 app.use(cors())
+const port = process.env.PORT || 9000
 
 // Set up static directory to serve in express
 
-if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.join(__dirname, '/client/build')))
 
     app.get('*', (req,res) => {
-        res.sendFile(path.resolve(__dirname, 'client', 'build','index.html'))
+        res.sendFile(path.join(__dirname, '/client/build'))
     })
-}
-
 
 
 
@@ -70,7 +65,6 @@ app.get('/weather', (req,res) => {
 })
 
 
-app.listen(process.env.PORT || 9000, () => {
+app.listen(port, () => {
     console.log('Server is starting')
- 
 })

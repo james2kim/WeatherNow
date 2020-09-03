@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d9632e2c.chunk.css",
+    "main.js": "/static/js/main.96726b1a.chunk.js",
+    "main.js.map": "/static/js/main.96726b1a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7ecb0647.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7ecb0647.js.map",
+    "static/js/2.bdd1204e.chunk.js": "/static/js/2.bdd1204e.chunk.js",
+    "static/js/2.bdd1204e.chunk.js.map": "/static/js/2.bdd1204e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e7a53b742df5502c5b85f03ca5e96e09.js": "/precache-manifest.e7a53b742df5502c5b85f03ca5e96e09.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d9632e2c.chunk.css.map": "/static/css/main.d9632e2c.chunk.css.map",
+    "static/js/2.bdd1204e.chunk.js.LICENSE.txt": "/static/js/2.bdd1204e.chunk.js.LICENSE.txt",
+    "static/media/CloudyDay.svg": "/static/media/CloudyDay.fad7ed3e.svg",
+    "static/media/CloudyNight.svg": "/static/media/CloudyNight.77373a79.svg",
+    "static/media/Day.svg": "/static/media/Day.44d80505.svg",
+    "static/media/Night.svg": "/static/media/Night.35618b67.svg",
+    "static/media/Rain.svg": "/static/media/Rain.91e867d3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ecb0647.js",
+    "static/js/2.bdd1204e.chunk.js",
+    "static/css/main.d9632e2c.chunk.css",
+    "static/js/main.96726b1a.chunk.js"
+  ]
+}

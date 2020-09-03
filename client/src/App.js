@@ -24,7 +24,7 @@ const App = () => {
 
   const onSubmitHandler = async (event) => {
       event.preventDefault()
-      const response  = await axios.get(`http://localhost:9000/weather?address=${input}`)
+      const response  = await axios.get(`/weather?address=${input}`)
       const data = response.data
       onSubmitData(data)
   }
