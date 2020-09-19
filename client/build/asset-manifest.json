@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.be6c9aa7.chunk.css",
+    "main.css": "/static/css/main.e91193ce.chunk.css",
     "main.js": "/static/js/main.efd77814.chunk.js",
     "main.js.map": "/static/js/main.efd77814.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7ecb0647.js",
@@ -8,9 +8,9 @@
     "static/js/2.56a65e04.chunk.js": "/static/js/2.56a65e04.chunk.js",
     "static/js/2.56a65e04.chunk.js.map": "/static/js/2.56a65e04.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d234e46629c4ca3967ae4be640e7c5ea.js": "/precache-manifest.d234e46629c4ca3967ae4be640e7c5ea.js",
+    "precache-manifest.2edf505b0b2efeb041f4d2c1dc9a8863.js": "/precache-manifest.2edf505b0b2efeb041f4d2c1dc9a8863.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.be6c9aa7.chunk.css.map": "/static/css/main.be6c9aa7.chunk.css.map",
+    "static/css/main.e91193ce.chunk.css.map": "/static/css/main.e91193ce.chunk.css.map",
     "static/js/2.56a65e04.chunk.js.LICENSE.txt": "/static/js/2.56a65e04.chunk.js.LICENSE.txt",
     "static/media/CloudyDay.svg": "/static/media/CloudyDay.fad7ed3e.svg",
     "static/media/CloudyNight.svg": "/static/media/CloudyNight.77373a79.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.7ecb0647.js",
     "static/js/2.56a65e04.chunk.js",
-    "static/css/main.be6c9aa7.chunk.css",
+    "static/css/main.e91193ce.chunk.css",
     "static/js/main.efd77814.chunk.js"
   ]
 }
