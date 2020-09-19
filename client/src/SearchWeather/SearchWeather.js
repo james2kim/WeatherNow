@@ -15,17 +15,17 @@ const SearchWeather = (props) => {
 
 // Determine which image to use based on weather 
     if (submitData.precip >=0.1) {
-        image = <img className={styles.Image} src={rain} />
+        image = <img alt="rain" className={styles.Image} src={rain} />
     } else if  (submitData.is_day === 'yes' && submitData.cloudcover < 20) {
-        image = <img className={styles.Image} src={clearDay} />
+        image = <img alt="clearday" className={styles.Image} src={clearDay} />
     } else if (submitData.is_day === 'yes'&& submitData.cloudcover >= 20) {
-        image = <img className={styles.Image} src={cloudyDay} />
+        image = <img alt="cloudy"className={styles.Image} src={cloudyDay} />
     } else if (submitData.is_day === 'no' && submitData.cloudcover < 20) {
-       image = <img className={styles.Image} src={clearNight} />
+       image = <img alt="clearnight"className={styles.Image} src={clearNight} />
     } else if (submitData.is_day === 'no'&& submitData.cloudcover >= 20) {
-        image = <img className={styles.Image} src={cloudyNight} />
+        image = <img alt="cloudynight"className={styles.Image} src={cloudyNight} />
     } else {
-        image = <img className={styles.Image} src={clearDay} />
+        image = <img alt="clear"className={styles.Image} src={clearDay} />
     }
 
 // If there is error, we will show error message, otherwise we will render modal 
