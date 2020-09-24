@@ -39,11 +39,6 @@ const App = () => {
     jsx = <SearchWeather submitData={submitData}input= {input} inputHandler={onInputHandler} request={onSubmitHandler}/>
   }
 
-    let dayOrNight 
-    isDay 
-    ? dayOrNight = 'https://images.unsplash.com/photo-1531147646552-1eec68116469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80' 
-    : dayOrNight = 'https://images.unsplash.com/photo-1507400492013-162706c8c05e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=609&q=80'
-
   return (
         <Layout isDay={isDay} background={dayOrNight}>
             {jsx}
