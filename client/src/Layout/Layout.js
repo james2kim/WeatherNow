@@ -17,7 +17,7 @@ return (
 
     <div className={styles.Container} style={renderBackground}>
         <header className={styles.Header}>
-            <h1>Weather Now</h1>
+            <h1>Global Weather Map</h1>
         </header>
         {props.children}
     </div>

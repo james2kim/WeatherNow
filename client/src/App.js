@@ -40,7 +40,7 @@ const App = () => {
   }
 
   return (
-        <Layout isDay={isDay} background={dayOrNight}>
+        <Layout isDay={isDay}>
             {jsx}
         </Layout>
   );
